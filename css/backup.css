@@ -1,0 +1,210 @@
+/* Estilos Header */
+/*
+header {
+    
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+   
+
+}
+
+header nav ul {
+    
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+header nav ul li a {
+
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+*/
+/* estilos main */
+/*
+main div {
+    
+    display: flex;
+    justify-content:center
+
+}
+
+main div div{
+    
+    display: flex;
+    justify-content:center
+
+}
+
+main h1{
+    
+    display: flex;
+    justify-content: center ;
+    font-size: 1px;
+}
+*/
+/* estilos footer */
+/*
+footer {
+
+    display: flex;
+    justify-content:space-between;
+
+}
+
+footer div{
+
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.text-derechos {
+
+    position: relative;
+    left: 780px;
+    top: 20px;
+
+}
+
+.logo-img {
+
+    margin-right: 38px;
+
+}
+
+.redes{
+
+    margin: 5px 10px;
+
+}
+
+footer div {
+  
+    color:white
+    
+}
+*/
+/* estilos texto biografia */
+/*
+.grid-p{
+    color: white;
+}
+
+.grid-h2{
+    color: white;
+}
+*/
+/* estilo biografia */
+
+/*
+    .grid-biografia {
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas:
+    "h2 h2 h2 img img "
+    "p p p  img img" 
+    "p p p  img img"
+    "p p p  img img"
+    "p p p  img img"
+    "p p p  img img";
+    margin: 0px 100px; 
+}
+
+.grid-img{
+
+    grid-area: img;
+    align-items: center;
+
+}
+
+.grid-h2{
+
+    grid-area: h2;
+    font-size: 40px;
+    padding: 60px 0px 0px 60px;
+
+}
+
+.grid-p{
+
+    grid-area: p;
+    font-size: 17px;
+    padding: 40px 60px 0px 60px
+
+}
+
+/* estilos videos*/
+/*
+.video-gird-area{
+
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    "video video h3 h3"
+    "video video p p"
+    "video video p p";
+    margin: 220px;
+
+}
+
+.video-gird-area-inv{
+
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    "h3 h3 video video"
+    "p p video video"
+    "p p video video";
+    margin: 220px;
+
+}
+
+.video{
+
+    grid-area: video;
+
+}
+
+.video-h2{
+
+    color: white;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.video-h3{
+
+    color: white;
+    grid-area: h3;
+    font-size: 30px;
+    padding: 50px;
+
+}
+
+.video-p{
+
+    grid-area: p;
+    color:white;
+    font-size: 20px;
+    padding: 50px;
+
+}
+
+.carousel-item {
+    display: flex; 
+    justify-content: left
+} */

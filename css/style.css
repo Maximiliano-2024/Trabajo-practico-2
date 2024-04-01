@@ -1,0 +1,429 @@
+* {
+
+    background-color: black;
+    color:#ffffff;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+/* estilos de navegador en clases de boostarp */
+
+/* estilos index main */
+
+h1{
+    display: none;
+
+}
+
+main{
+    position: relative;
+    top:150px;
+
+}
+
+
+.main-index-img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*footer */
+
+.text-derechos{
+    font-size: 12px ;
+    padding: 3px;
+    position: relative;
+    left: 43%;
+    align-content: center;
+
+}
+
+.logo-img{
+    position: fixed;
+    right: 25px;
+    top: 850px;
+    margin: 0px 40px;
+    
+}
+
+.redes{
+    margin: 5px;
+
+}
+
+/* estilo biografia */
+
+.grid-biografia {
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas:
+    "h2 h2 h2 img img "
+    "p p p img img" 
+    "p p p img img"
+    "p p p img img"
+    "p p p img img"
+    "p p p img img";
+     
+}
+
+.grid-img{
+    grid-area: img;
+    margin:0px 100px;
+    
+}
+
+.grid-h2{
+    grid-area: h2;
+    font-size: 40px;
+    padding: 40px 0px 0px 120px;
+
+}
+
+.grid-p{
+    grid-area: p;
+    font-size: 17px;
+    padding: 40px 100px 0px 100px
+
+}
+
+.text-derechos-biografia {
+    font-size: 12px ;
+    padding: 3px;
+    position: relative;
+    left: 110px;
+    align-content: center;
+    
+}
+
+/* estilos videos */
+.video-h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-videos{
+    position: relative;
+    top:155px;
+    
+
+}
+.grid-videos{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    
+    
+}
+
+.grid-item-videos-01{
+    
+    align-content: center;
+    justify-self:end;
+    padding: 40px;
+}
+    
+
+.grid-item-videos-02{
+    align-content: center;
+    justify-self:start; 
+    padding: 40px;
+    
+}
+
+.grid-item-videos-03{
+    align-content: center;
+    justify-self: end; 
+    padding: 40px;
+   
+}
+
+.grid-item-videos-04{
+    align-content: center;
+    justify-self:start;
+    padding: 40px;
+    
+}
+
+.h3-video{
+    font-size: 25px;
+}
+
+.video-p{
+    font-size: 14px;
+}
+
+/*estilos contactos*/
+.h2-contactos{
+    
+    background-color: #484848;
+    font-size: 40px;
+    text-align: center;
+    margin:10px
+
+}
+
+.main-contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+    background-color: #484848;
+    width: 40%;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+      
+}
+
+.texto-formulario {
+    background-color: #484848;
+}
+
+
+.cajas-formulario {
+    display: flex;
+    margin: 30px;
+
+}
+
+.cajas-formulario label {
+    flex-basis: 80px;
+    background-color: #484848;
+    
+}
+
+.cajas-formulario input {
+    background-color: #ffffff;
+    color: black;
+    flex: 1;
+
+}
+
+.cajas-formulario textarea {
+    background-color: #ffffff;
+    color: black;
+    flex: 1;
+}
+
+.text-derechos-contactos{
+    font-size: 12px ;  
+    
+}
+
+.boton-enviar-contactos{
+    display: flex;
+    justify-content: end;
+    background-color: #484848;
+
+}
+
+.boton-enviar-contactos input {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+
+}
+
+
+@media only screen  and (max-width: 425px) {
+
+    .img-logo-nav{
+        height: 50px;
+    }
+
+    .img-main-index{
+        width:300px ;
+
+    }
+
+    main{   
+        top:75px;
+    
+    }
+    
+    /*footer */
+    
+    .text-derechos{
+        display: none;
+    
+    }
+    
+    .logo-img{
+        position: fixed;
+        right: 5px;
+        top: 380px;
+        margin: 0px 5px;
+
+        
+    }
+    
+    .redes{
+        width: 20px;
+        margin: 5px;
+    
+    }
+    .menu-hamburgesa{
+        width: 20px;
+    }
+  
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+
+    .img-logo-nav{
+        height: 100px;
+    }
+
+    .img-main-index{
+        width:450px ;
+
+    }
+
+    main{   
+        top:125px;
+    
+    }
+    
+    /*footer */
+    
+    .text-derechos{
+        display: none;
+    
+    }
+    
+    .logo-img{
+        position: fixed;
+        right: 5px;
+        top: 580px;
+        margin: 0px 5px;
+
+        
+    }
+    
+    .redes{
+        width: 30px;
+        margin: 5px;
+    
+    }
+    .menu-hamburgesa{
+        width: 30px;
+    }
+  
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .img-logo-nav{
+        height: 120px;
+    }
+
+    .img-main-index{
+        width:550px ;
+
+    }
+
+    main{   
+        top:145px;
+    
+    }
+    
+    /*footer */
+    
+    .text-derechos{
+        display: none;
+    
+    }
+    
+    .logo-img{
+        position: fixed;
+        right: 5px;
+        top: 700px;
+        margin: 0px 5px;
+
+        
+    }
+    
+    .redes{
+        width: 35px;
+        margin: 5px;
+    
+    }
+    .menu-hamburgesa{
+        width: 30px;
+        margin-right: 30px;
+    }
+  
+
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    .img-logo-nav{
+        height: 120px;
+    }
+
+    .img-main-index{
+        width:730px ;
+
+    }
+
+    main{   
+        top:145px;
+    
+    }
+    
+    /*footer */
+    
+    .text-derechos{
+        display: none;
+    
+    }
+    
+    .logo-img{
+        position: fixed;
+        right: 5px;
+        top: 880px;
+        margin: 0px 5px;
+
+        
+    }
+    
+    .redes{
+        width: 40px;
+        margin: 5px;
+    
+    }
+   
+    
+   
+}
+
+
+
+   
+    
+   
+ 
+
+
+
+
+
+
+
+
